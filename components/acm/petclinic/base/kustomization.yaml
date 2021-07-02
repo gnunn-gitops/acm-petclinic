@@ -1,0 +1,7 @@
+namespace: petclinic
+
+resources:
+- namespace.yaml
+- channel.yaml
+- application.yaml
+- subscription.yaml

@@ -1,0 +1,24 @@
+apiVersion: image.openshift.io/v1
+kind: ImageStream
+metadata:
+  annotations:
+    openshift.io/image.dockerRepositoryCheck: "2021-07-02T21:12:42Z"
+  labels:
+    app: petclinic
+    app.kubernetes.io/component: petclinic
+    app.kubernetes.io/instance: petclinic
+    app.kubernetes.io/part-of: petclinic
+  name: petclinic
+spec:
+  lookupPolicy:
+    local: false
+  tags:
+  - annotations:
+      openshift.io/generated-by: OpenShiftWebConsole
+      openshift.io/imported-from: jbrisbin/spring-petclinic
+    from:
+      kind: DockerImage
+      name: jbrisbin/spring-petclinic
+    name: latest
+    referencePolicy:
+      type: Local
