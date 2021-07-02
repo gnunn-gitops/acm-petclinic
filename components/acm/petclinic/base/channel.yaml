@@ -4,4 +4,4 @@ metadata:
   name: petclinic
 spec:
   type: GitHub
-  pathname: https://github.com/gnunn-gitops/acm-cluster-config.git
+  pathname: https://github.com/gnunn-gitops/acm-petclinic.git
