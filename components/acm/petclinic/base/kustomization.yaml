@@ -5,3 +5,4 @@ resources:
 - channel.yaml
 - application.yaml
 - subscription.yaml
+- tower-secret.yaml
