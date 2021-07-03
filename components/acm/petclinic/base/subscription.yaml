@@ -15,4 +15,4 @@ spec:
   placement:
     clusterSelector:
       matchLabels:
-        cluster: aws.cluster
+        cluster: local.home
