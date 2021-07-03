@@ -10,6 +10,6 @@ metadata:
 spec:
   channel: petclinic/petclinic
   placement:
-    clusterSelector:
-      matchLabels:
-        name: local-cluster
+    placementRef:
+      kind: PlacementRule
+      name: petclinic
