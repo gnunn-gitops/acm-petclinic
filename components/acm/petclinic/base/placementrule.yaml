@@ -7,4 +7,4 @@ metadata:
 spec:
   clusterSelector:
     matchLabels:
-      name: local-cluster
+      cluster: aws.cluster
